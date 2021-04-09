@@ -1,0 +1,11 @@
+1.    Link to w3schools W3Schools Online Web Tutorials
+
+2.    a link to a really old Mr. Ellis Javasccript site https://github.com/hpssjellis/pgb-mobile-app-design
+
+3.    a link to Mr. Ellis Machine Learning in Javascript https://www.rocksetta.com/tensorflowjs/
+
+4.    google games Play Dinosaur Game Online - T-Rex, Run! (elgoog.im)
+
+5.    coding simulator Programming Simulator (codepen.io)
+
+6.    earn code Learn | Code.org

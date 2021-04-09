@@ -15,9 +15,9 @@ Links to all my files<br>
 <li><a href="T3A10-Christian-in-out.html">T3A10-Christian-in-out</a>
 <li><a href="T3A11-Christian-Variables.html">T3A11-Christian-Variables</a>
 <li><a href="T3A12-Decisions-Christian.html">T3A12-Decisions-Christian</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
+<li><a href="T3A13-Functions-Christian.html">T3A13-Functions-Christian</a>
+<li><a href="T3A14-for-loop-Christian.html">T3A14-for-loop-Christian</a>
+<li><a href="T3A15-Christian-arrays.html">T3A15-Christian-arrays</a>
+<li><a href="T3A16-Objects-Christian.html">T3A16-Objects-Christian</a>
+<li><a href="T3A18-Christian-Sounds-events.html">T3A18-Christian-Sounds-events</a>
 <li><a href="...">...</a>

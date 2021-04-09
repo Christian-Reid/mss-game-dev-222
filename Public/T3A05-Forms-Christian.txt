@@ -1,0 +1,47 @@
+
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A05-forms-Liam,M.html </h1>
+
+</body>
+</html>
+
+<b style="color:Aqua; background-color:black;">Different forms entries for webpages</b><br><br>
+
+<b style="color:Aquamarine; background-color:black;">Button:</b> <input type=button value="press for alert" onClick="{
+   alert('Hello World')
+ }"><br><br>
+
+<b style="color:Aquamarine; background-color:black;">File:</b><input type="file"><br>
+
+<b style="color:Aquamarine; background-color:black;">Range:</b><input type="range"><br>
+
+<b style="color:Aquamarine; background-color:black;">Colour:</b> <input type="color" id="myColour"><br><br>
+
+<b style="color:Aquamarine; background-color:black;">Date:</b> <input type="date"><br>
+
+<b style="color:Aquamarine; background-color:black;">Time:</b> <input type="time"><br>
+
+<b style="color:Aquamarine; background-color:black;">Week:</b> <input type="week"><br>
+
+<b style="color:Aquamarine; background-color:black;">Month:</b> <input type="month"><br>
+
+<b style="color:Aquamarine; background-color:black;">Date and time:</b> <input type="datetime-local"><br><br>
+
+<b style="color:Aquamarine; background-color:black;">Text:</b> <input id="myText01" type=text value=Liam><br>
+
+<b style="color:Aquamarine; background-color:black;">Number:</b> <input id="myNum01" type=number value=5><br>
+
+<b style="color:Aquamarine; background-color:black;">Password:</b><input type="password"><br><br>
+[7:03 PM]
+<b style="color:Aquamarine; background-color:black;">Checkbox:</b><i>Do u like pets?</i> YES<input type="checkbox">NO<input type="checkbox"><br>
+
+<b style="color:Aquamarine; background-color:black;">Radio:</b><i>What is your favorite pet?</i> Dog<input type="radio">Cat<input type="radio">other<input type="radio"><br><br>
+
+<b style="color:Aquamarine; background-color:black;">Reset:</b><input type="reset">
+
+<b style="color:Aquamarine; background-color:black;">Submit:</b><input type="Submit"><br><br>
+
+
+ </textarea>

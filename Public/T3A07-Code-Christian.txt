@@ -1,0 +1,96 @@
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A07-Code-by-Christian,R.html</h1>
+
+</body>
+</html>
+
+
+<script>
+
+   let myScore = 15
+
+function myHitOther(my1,my2,my4){
+   left1   = parseInt(document.getElementById(my1).style.left)
+   right1  = left1 + parseInt(document.getElementById(my1).style.width)
+   top1    = parseInt(document.getElementById(my1).style.top)
+   bottom1 = top1   + parseInt(document.getElementById(my1).style.height)
+   left2   = parseInt(document.getElementById(my2).style.left)
+   right2  = left2 + parseInt(document.getElementById(my2).style.width)
+   top2    = parseInt(document.getElementById(my2).style.top)
+   bottom2 = top2   + parseInt(document.getElementById(my2).style.height)
+   if ((right1  >=  left2  ) &&
+       (bottom1 >=  top2   ) &&
+       (left1   <=  right2 ) &&
+       (top1    <=  bottom2) ){
+       return true
+   }
+}
+
+
+function myCheckHit(){
+document.all.myText01.value = myScore
+
+    if ( myHitOther('myImg01','myImg02') ){
+       document.getElementById('myImg01').style.left = '60px'
+       document.getElementById('myImg01').style.top = '150px'
+       document.all.myText01.value = 'You hit a enemey!'
+       myScore -= 5
+   }
+   if ( myHitOther('myImg01','myImg03') ){
+      document.getElementById('myImg01').style.left = '60px'
+      document.getElementById('myImg01').style.top = '150px'
+      document.all.myText01.value = 'You hit a enemey!'
+      myScore -= 5
+   }
+
+   if (myScore <= 0){
+      document.all.myText01.value = 'You Lose scrore at zero!'
+      alert('you lose!')
+      location.reload()
+   }
+   if ( myHitOther('myImg01','myImg04') ){
+      document.all.myText01.value = 'You win!'
+      alert('You Win, Congratulations!')
+      location.reload()
+   }
+
+}
+
+</script>
+<img id="myImg01" src="..." style="position:absolute; width:100px; height:80px; top:150px; left:60px;"  src="...">
+<img id="myImg02" src="..." style="position:absolute; width:100px; height:80px; top:150px; left:60px;"  src="...">
+<img id="myImg03" src="..." style="position:absolute; width:100px; height:80px; top:150px; left:60px;"  src="...">
+<img id="myImg04" src="..." style="position:absolute; width:100px; height:80px; top:150px; left:60px;"  src="...">
+<body onkeydown="{
+   document.all.myText01.value = event.key
+ 
+   if (event.key == 'd') { // d = go right
+      document.getElementById('myImg01').style.left = parseInt(document.getElementById('myImg01').style.left) + 10 + 'px'
+
+
+   }
+
+   if (event.key == 's') { // s = go down
+      document.getElementById('myImg01').style.top = parseInt(document.getElementById('myImg01').style.top) + 10 + 'px'
+
+
+   }
+
+   if (event.key == 'w') { // w = go up
+     document.getElementById('myImg01').style.top = parseInt(document.getElementById('myImg01').style.top) - 10 + 'px'
+
+
+   }
+
+   if (event.key == 'a') { // w = go left
+     document.getElementById('myImg01').style.left = parseInt(document.getElementById('myImg01').style.left) - 10 + 'px'
+}
+ myCheckHit()
+
+}">
+
+<input id="myText01" type=text value=0 size=38 >
+
+<text>WASD for the HERO movements.</text>
